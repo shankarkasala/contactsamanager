@@ -1,38 +1,58 @@
-.App {
+.App-container {
   text-align: center;
+  width: 100%;
+  height: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.header-conatiner {
+  width: 100%;
+  height: 70px;
+  background: crimson;
+  border: 1px solid black;
+  color: #fff;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.contactlist-container {
+  width: 100%;
+  height: 85vh;
+  background: lightcoral;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.contactlist-addbutton {
+  padding-top: 16px;
+}
+button {
+  width: 100px;
+  border: none;
+  background: crimson;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+h2 {
+  color: #fff;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.contactcard-container {
+  width: 40%;
+  margin: 0 auto;
+  min-height: 300px;
+  background: #fff;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  box-shadow: 0px 15px 25px -4px rgba(30, 30, 60, 0.25);
+}
+.contactcard-card {
+  display: flex;
+  justify-content: center;
+  padding: 16px;
+}
+.card {
+  text-align: left;
+  width: 200px;
+  padding: 10px;
+  background: lightcoral;
+}
+a {
+  color: #fff;
+  font-weight: 400;
+  text-decoration: none;
 }
